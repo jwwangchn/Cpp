@@ -1,0 +1,20 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="532.333">
+    <Grid>
+        <ListView x:Name="lvDTCs" HorizontalAlignment="Left" Height="163" Margin="145,64,0,0" VerticalAlignment="Top" Width="231" SelectionChanged="DTC_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="DTC" 
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding DTC}"/>
+                    <GridViewColumn Header="DTCState" 
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding DTCState}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
