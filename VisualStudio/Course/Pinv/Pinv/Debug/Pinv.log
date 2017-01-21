@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/12/20 20:51:58。
+﻿生成启动时间为 2016/12/21 17:28:10。
      1>项目“E:\Software\Cpp\VisualStudio\Course\Pinv\Pinv\Pinv.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Program Files\Eigen" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -11,4 +11,4 @@
 
 生成成功。
 
-已用时间 00:00:11.72
+已用时间 00:00:11.26

@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/1/17 17:04:14。
+     1>项目“E:\Software\Cpp\VisualStudio\TestCompileMATLAB\TestCompileMATLAB\TestCompileMATLAB.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Software\Cpp\VisualStudio\TestCompileMATLAB\Debug\TestCompileMATLAB.exe" /INCREMENTAL /NOLOGO add.lib mclmcrrt.lib mclmcr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Software\Cpp\VisualStudio\TestCompileMATLAB\Debug\TestCompileMATLAB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Software\Cpp\VisualStudio\TestCompileMATLAB\Debug\TestCompileMATLAB.lib" /MACHINE:X86 Debug\demo.obj
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _ref_count_obj_addref_proxy，该符号在函数 "protected: __thiscall mwArray::mwArray(class array_ref *,bool)" (??0mwArray@@IAE@PAVarray_ref@@_N@Z) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _ref_count_obj_release_proxy，该符号在函数 "public: virtual __thiscall mwArray::~mwArray(void)" (??1mwArray@@UAE@XZ) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _array_ref_getV_int_proxy，该符号在函数 "public: class mwArray __cdecl mwArray::GetPromoted(unsigned int,...)" (?GetPromoted@mwArray@@QAA?AV1@IZZ) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _array_ref_get_numeric_mxDouble_proxy，该符号在函数 "public: void __thiscall mwArray::GetData(double *,unsigned int)const " (?GetData@mwArray@@QBEXPANI@Z) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _array_ref_set_numeric_mxInt32_proxy，该符号在函数 "public: class mwArray & __thiscall mwArray::operator=(int const &)" (??4mwArray@@QAEAAV0@ABH@Z) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _error_info_get_message_proxy，该符号在函数 "public: virtual char const * __thiscall mwException::what(void)const " (?what@mwException@@UBEPBDXZ) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _mclcppGetLastError_proxy，该符号在函数 "public: static void __cdecl mwException::raise_error(void)" (?raise_error@mwException@@SAXXZ) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _mclcppCreateError_proxy，该符号在函数 "public: __thiscall mwException::mwException(class error_info *,bool)" (??0mwException@@QAE@PAVerror_info@@_N@Z) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _mclGetMatrix_proxy，该符号在函数 "public: __thiscall mwArray::mwArray(unsigned int,unsigned int,enum mxClassID,enum mxComplexity)" (??0mwArray@@QAE@IIW4mxClassID@@W4mxComplexity@@@Z) 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 _addInitialize，该符号在函数 _main 中被引用
+     1>demo.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) void __cdecl add(int,class mwArray &,class mwArray &,class mwArray const &,class mwArray const &)" (__imp_?add@@YAXHAAVmwArray@@0ABV1@1@Z)，该符号在函数 _main 中被引用
+     1>E:\Software\Cpp\VisualStudio\TestCompileMATLAB\Debug\TestCompileMATLAB.exe : fatal error LNK1120: 11 个无法解析的外部命令
+     1>已完成生成项目“E:\Software\Cpp\VisualStudio\TestCompileMATLAB\TestCompileMATLAB\TestCompileMATLAB.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.28
